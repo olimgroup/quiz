@@ -52,17 +52,20 @@
 ![3_2](./image/Q2.jpg)
 정답: 841
 
-## 4. 어디가 가장 가깝고 싸고 양이많은가요 (Only EngineTeam Required)
-가성비를 좋아하는 에단은 회사 근처 식당을 거리, 가격, 양 을 기준으로 정리했습니다.
+## 4. 어디가 가장 가깝고 싸고 양이 많은가요?? (Only EngineTeam Required)
+가성비를 좋아하는 에단은 회사 근처 식당을 거리, 가격, 양을 기준으로 정리했습니다.
 
-에단의 취향 우선순위는
-1. 거리는 가까울소록 좋다
+에단의 취향 우선순위는 아래와 같습니다
+1. 거리는 가까울수록 좋다
 2. 가격은 저렴할수록 좋다
 3. 양은 많을수록 좋다
 
-에단을 위해 순서를 정렬해주세요
+식당의 순서를 정렬하는 코드를 c++로 작성해 주세요!!
 
 ```c++
+#include <iostream>
+#include <vector>
+
 struct store {
     int distance;
     int price;
@@ -72,7 +75,7 @@ struct store {
     {}
 };
 
-datas = [
+std::vector<store> datas = {
 	store(11, 5500, 2500),
 	store(10, 4900, 100),
 	store(13, 5000, 2000),
@@ -92,5 +95,41 @@ datas = [
 	store(10, 5000, 700),
 	store(11, 5000, 1000),
 	store(12, 5500, 100)
-]
+};
+
+int main()
+{
+	/* type here... */
+	
+	for (auto d : datas)
+	{
+		std::cout << d.distance << "km ";
+		std::cout << d.price << "krw ";
+		std::cout << d.qty << "qty " << std::endl;
+	}
+	return 0;
+}
+```
+
+정답:
+```
+10km 4900krw 100qty
+10km 5000krw 1000qty
+10km 5000krw 700qty
+10km 5000krw 100qty
+11km 4900krw 1500qty
+11km 5000krw 1000qty
+11km 5000krw 199qty
+11km 5500krw 3500qty
+11km 5500krw 2500qty
+11km 5500krw 1000qty
+12km 4900krw 500qty
+12km 4900krw 107qty
+12km 5000krw 7000qty
+12km 5500krw 100qty
+13km 4900krw 3000qty
+13km 5000krw 2000qty
+13km 5000krw 2000qty
+13km 5000krw 400qty
+13km 5500krw 4000qty
 ```
