@@ -75,7 +75,7 @@ struct store {
     {}
 };
 
-std::vector<store> datas = {
+std::vector<store> data = {
 	store(11, 5500, 2500),
 	store(10, 4900, 100),
 	store(13, 5000, 2000),
@@ -101,7 +101,7 @@ int main()
 {
 	/* type here... */
 	
-	for (auto d : datas)
+	for (auto d : data)
 	{
 		std::cout << d.distance << "km ";
 		std::cout << d.price << "krw ";
