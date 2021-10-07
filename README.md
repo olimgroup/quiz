@@ -1,7 +1,8 @@
 # QUIZ 
 
-## 0. About ZipView (Required)
-집뷰 서비스의 발전 방향에 대해 제안을 작성하세요. (200자 이내)
+## 0. About Metaverse(Required)
+사전적 의미가 아닌 지원자가 생각하는 메타버스(Metaverse)란 무엇인지 주요 특징(Key feature)를 3개 이상 작성하고, 
+각각 이유와 기술 융합 방향성에 대해 작성하세요. (500자 내외)
 
 ## 1. Syntax Checker (Required)
 
