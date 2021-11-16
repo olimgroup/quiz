@@ -57,7 +57,9 @@
 1. 인자로 전달받은 양의 정수 N보다 작은 모든 소수의 합을 반환하는 함수를 작성해주세요.
 2. 멀티스레드를 이용해주세요.
 3. c++로 작성해주세요.
-   unsigned int SumOfAllPrimeNumbersLessThan(unsigned int N)
+  ```
+  unsigned int SumOfAllPrimeNumbersLessThan(unsigned int N)
    {
 	return 0;
    }
+   ```
